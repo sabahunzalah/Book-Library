@@ -1,0 +1,220 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 10px;
+  }
+
+.main {
+    /* border: 2px solid black; */
+    background-image: url(images/images1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding:0%;
+    margin: 0%;
+    /* position:absolute; */
+}
+
+.nav1 {
+    background-color: #232c49;
+    /* width: 100%; */
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200px !important;
+    list-style: none;
+    display: flex;
+    padding-left: 12px;
+}
+
+.logo li {
+    /* border: 2px solid black; */
+    font-weight: 100px;
+}
+
+.logoParent {
+    display: flex;
+    flex-direction: row;
+}
+
+.SignUpBtn {
+    background-color: #f8f9fa !important;
+    border-radius: 50px !important;
+    border: none !important;
+}
+
+.SignUpBtn a {
+    text-decoration: none;
+    color: #232c49 !important;
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+
+.login {
+    border: 2px solid #f8f9fa !important;
+    border-radius: 50px !important;
+
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color: #f8f9fa !important;
+
+}
+
+.login a {
+    text-decoration: none;
+    color: #f8f9fa !important;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login a:hover {
+    color: #232c49 !important;
+}
+
+.SignUpDiv {
+    padding: 10px;
+}
+
+.homeTab {
+    /* border: 2px solid brown; */
+    padding-left: 15px;
+}
+
+.homeTab li {
+    /* border: 2px solid brown; */
+    padding: 7px;
+    font-size: 20px;
+
+}
+
+.togglerBtn {
+    border: 2px solid #f8f9fa !important;
+    background-color: #f8f9fa !important;}
+.secondPart{
+    background-color: #f9f9f9;
+    position:  static;
+        /* border: 2px solid green; */
+        /* height:120vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 50px;
+       
+    }
+.child1{
+    /* border: 2px solid purple; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.cloud1{
+    /* border: 2px solid rgb(128, 107, 0); */
+
+    height: 200px;
+    margin-left: -250px;
+    width: 400px;
+    position:sticky;
+    margin-top: -50px;
+
+
+}
+.cloud2{
+    /* border: 2px solid rgb(0, 79, 128); */
+    height: 300px;
+    position:sticky;
+    width: 500px;
+    margin-top: -70px;
+
+
+}
+.cloud3{
+    /* border: 2px solid rgb(64, 128, 0); */
+    height: 300px;
+    width: 700px;
+    margin-left: -150px;
+    margin-top: -60px;
+
+    position:sticky;
+
+
+}
+
+.child2{
+    /* height: 50vh; */
+    /* border: 2px solid rgb(17, 0, 128); */
+    background-image: url('images/back-2.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 50px; */
+    margin-bottom: 20px;
+}
+.corasol{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+     align-items: center;  */
+}
+.slider{
+    /* border: 2px solid rgb(4, 0, 128); */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+
+
+}
+
+.addBookform{
+    /* border: 2px solid rgb(214, 23, 23); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formDiv div{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    /* justify-content: center; */
+    padding-bottom: 10px;
+    gap:10px;
+}
+.formLabel label{
+    color:#1b3fa3!important;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formLabel input{
+    border-color: #1b3fa3 !important;
+}
+.cardcl{
+    border: 2px solid #232c49 !important;
+}
+.cardcl:hover{
+   cursor: pointer;
+   transform: translate(10px, 10px);
+}
+
+
+
+
+
+
+
+
+

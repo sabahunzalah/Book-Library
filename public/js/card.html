@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Card Form</title>
+    <style>
+        /* Add some basic styling for the card */
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            display: inline-block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Create Card Form</h2>
+
+    <form id="cardForm">
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" accept="image/*" required><br>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" required><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" required><br>
+
+        <label for="publisher">Publisher's Name:</label>
+        <input type="text" id="publisher" required><br>
+
+        <button type="button" onclick="createCard()">Create Card</button>
+    </form>
+
+    <div id="cardsContainer"></div>
+
+    <script>
+        function createCard() {
+            // Get values from the form
+            const image = document.getElementById("image").files[0];
+            const title = document.getElementById("title").value;
+            const description = document.getElementById("description").value;
+            const price = document.getElementById("price").value;
+            const publisher = document.getElementById("publisher").value;
+
+            // Create card element
+            const card = document.createElement("div");
+            card.classList.add("card");
+
+            // Create and append image element
+            const imageElement = document.createElement("img");
+            imageElement.src = URL.createObjectURL(image);
+            card.appendChild(imageElement);
+
+            // Create and append other details
+            const titleElement = document.createElement("h3");
+            titleElement.textContent = title;
+            card.appendChild(titleElement);
+
+            const descriptionElement = document.createElement("p");
+            descriptionElement.textContent = description;
+            card.appendChild(descriptionElement);
+
+            const priceElement = document.createElement("p");
+            priceElement.textContent = "Price: $" + price;
+            card.appendChild(priceElement);
+
+            const publisherElement = document.createElement("p");
+            publisherElement.textContent = "Publisher: " + publisher;
+            card.appendChild(publisherElement);
+
+            // Append the card to the container
+            document.getElementById("cardsContainer").appendChild(card);
+
+            // Clear form fields
+            document.getElementById("cardForm").reset();
+        }
+    </script>
+
+</body>
+</html>
