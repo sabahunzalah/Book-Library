@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword ,
   onAuthStateChanged ,signOut} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-import {  doc, setDoc , getFirestore,getDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import {  doc, setDoc , getFirestore,getDoc,collection,getDocs,addDoc,onSnapshot } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 
 const firebaseConfig = {
@@ -26,5 +26,9 @@ const firebaseConfig = {
     doc, 
     setDoc, 
     db,
-    getDoc
+    getDoc,
+    collection,
+    getDocs,
+    addDoc,
+    onSnapshot
   }
