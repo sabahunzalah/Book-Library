@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.loginUserparent{
+    /* height: 85vh !important; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.loginUser{
+    /* border :2px solid rgb(221, 21, 21); */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+     justify-content: space-evenly;
+    background-color: #323d62;
+    color: whitesmoke;
+    height:400px;
+    border-radius: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+.loginUser h1{
+   /* padding-top: 10px; */
+   text-decoration: underline;
+}
+.formChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+   
+
+}
+.formChild input{
+   width: 400px;
+   height: 50px;
+   padding: 10px;
+
+   
+}
+.formChild label{
+   font-size: 25px;
+
+ }
+ .signIn{
+   width: 120px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 30px;
+   border-color: transparent;
+   
+ }
+
+ .registerLink a{
+    color: white !important;
+    gap: 10px;
+ }
+ .registerLink {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    gap: 10px;
+   
+ }
+ @media screen and (max-width: 490px) {
+   /* body {
+     background-color: rgb(255, 98, 0) !important;
+   } */
+   .formChild input{
+      width: 340px;
+      height: 40px;
+      padding: 7px;
+     
+      
+   }
+   .formChild label{
+      font-size: 20px;
+   
+    }
+ }
+ @media screen and (max-width: 378px) {
+   /* body {
+     background-color: blue !important;
+   } */
+   .formChild input{
+      width: 300px;
+      height: 40px;
+      padding: 7px;
+     
+      
+   }
+   .formChild label{
+      font-size: 20px;
+   
+    }
+ }

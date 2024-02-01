@@ -1,0 +1,366 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 10px;
+}
+
+.main {
+    /* border: 2px solid black; */
+    background-image: url(images/images1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    /* position:absolute; */
+}
+
+.nav1 {
+    background-color: #232c49;
+    /* width: 100%; */
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200px !important;
+    list-style: none;
+    display: flex;
+    padding-left: 12px;
+}
+
+.logo li {
+    /* border: 2px solid black; */
+    font-weight: 100px;
+}
+
+.logoParent {
+    display: flex;
+    flex-direction: row;
+}
+
+.SignUpBtn {
+    background-color: #f8f9fa !important;
+    border-radius: 50px !important;
+    border: none !important;
+}
+
+.SignUpBtn a {
+    text-decoration: none;
+    color: #232c49 !important;
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+
+.login {
+    border: 2px solid #f8f9fa !important;
+    border-radius: 50px !important;
+
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color: #f8f9fa !important;
+
+}
+
+.login a {
+    text-decoration: none;
+    color: #f8f9fa !important;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login a:hover {
+    color: #232c49 !important;
+}
+
+.SignUpDiv {
+    padding: 10px;
+}
+
+.homeTab {
+    /* border: 2px solid brown; */
+    padding-left: 15px;
+}
+
+.homeTab li {
+    /* border: 2px solid brown; */
+    padding: 7px;
+    font-size: 20px;
+
+}
+
+.togglerBtn {
+    border: 2px solid #f8f9fa !important;
+    background-color: #f8f9fa !important;
+}
+
+.secondPart {
+    background-color: #9e1414;
+    position: static;
+    /* border: 2px solid green; */
+    /* height:120vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+
+.child1 {
+    /* border: 2px solid purple; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+
+.child2 {
+    /* height: 50vh; */
+    /* border: 2px solid rgb(17, 0, 128); */
+    background-image: url(images/1686965868_en-idei-club-p-library-background-image-dizain-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 50px; */
+    margin-bottom: 20px;
+}
+
+.corasol {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+     align-items: center;  */
+}
+
+.slider {
+    /* border: 2px solid rgb(4, 0, 128); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+
+
+}
+
+.addBookform {
+    /* border: 2px solid rgb(214, 23, 23); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDiv div {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.formLabel label {
+    color: #1b3fa3 !important;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formLabel input {
+    border-color: #1b3fa3 !important;
+}
+
+.cardcl {
+    border: 2px solid #232c49 !important;
+}
+
+.cardcl:hover {
+    cursor: pointer;
+    transform: translate(10px, 10px);
+}
+
+.emailId {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #232c49;
+}
+
+.addBook {
+    /* border :2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.addYourBook {
+    /* border: 2px solid #232c49; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+}
+
+.addBookImg {
+    /* border :2px solid green; */
+    width: 100px;
+}
+
+.classForm div {
+    /* border: 2px solid rgb(128, 68, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    width: 300px;
+
+}
+
+.classForm input {
+    border: 2px solid #1b3fa3;
+    width: 100%;
+
+    padding: 5px;
+    font-weight: 500 !important;
+
+}
+
+.classForm label {
+    border: 2px solid #1b3fa3;
+    width: 100%;
+    text-align: center;
+    background-color: #2bb1e2;
+    padding: 5px;
+}
+
+.titleDoc {
+    padding: 25;
+    text-align: center;
+    color: #e2c449;
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: italic; */
+    text-decoration: underline;
+}
+
+.titleLabel {
+    /* border: 1px solid red; */
+    padding: 25;
+    text-align: center;
+    color: #232c49;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.priceLabel {
+    padding: 25;
+    text-align: center;
+    color: #232c49;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.price {
+    padding: 25;
+    text-align: center;
+    color: #e2c449;
+    font-size: 18px;
+    font-weight: bold;
+    /* font-family: italic; */
+    text-decoration: underline;
+}
+
+.publisherLabel {
+    padding: 25;
+    text-align: center;
+    color: #232c49;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.publisher {
+    padding: 25;
+    text-align: center;
+    color: #e2c449;
+    font-size: 18px;
+    font-weight: bold;
+    /* font-family: italic; */
+    text-decoration: underline;
+}
+
+.bookInfo {
+    border: 5px solid #232c49;
+    /* width: 250px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #1AA4B8;
+    border-radius: 5%;
+
+}
+
+.cardParent {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+  @media screen and (max-width: 378px) {
+ 
+    .logo {
+        list-style: none;
+        display: flex;
+        padding-left: 5px;
+    }
+    
+    
+    
+    .logoParent {
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 364px) {
+    
+    .logo {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 150px !important;
+        list-style: none;
+        display: flex;
+        padding-left: 5px;
+    }
+    
+    .logo li {
+        font-size: 30px !important;
+    }
+    
+    .logoParent {
+        display: flex;
+        flex-direction: row;
+    }
+  }

@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.loginUserparent{
+
+    background-color: #35426b;
+    /* border: 2px solid #9b92ad ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.loginUser{
+    /* border :2px solid rgb(221, 21, 21); */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+     justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid #9b92ad ;
+    color: #323d62;
+    height:600px;
+    border-radius: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+.loginUser h1{
+   /* padding-top: 10px; */
+   text-decoration: underline;
+   color: #323d62;
+}
+.formChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+    /* max-width: 400px; */
+    /* max-height: 500px; */
+    /* width: 400px; */
+    /* background-color: red; */
+
+}
+.formChild input{
+   width: 400px;
+   height: 50px;
+   padding: 10px;
+   display: block;
+   color: #323d62;
+   
+}
+.formChild label{
+   font-size: 25px;
+   /* padding-bottom: 10px; */
+   color: #323d62;
+ }.signIn{
+   width: 120px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 30px;
+   border-color: transparent;
+ }
+ .loginLink a{
+    color: #323d62 !important;
+    gap: 10px;
+ }
+ .loginLink {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    gap: 10px;
+   
+ }
+ @media screen and (max-width: 490px) {
+   /* body {
+     background-color: rgb(255, 98, 0) !important;
+   } */
+   .formChild input{
+      width: 340px;
+      height: 40px;
+      padding: 7px;
+     
+      
+   }
+   .formChild label{
+      font-size: 20px;
+   
+    }
+ }
+ @media screen and (max-width: 378px) {
+   /* body {
+     background-color: blue !important;
+   } */
+   .formChild input{
+      width: 300px;
+      height: 40px;
+      padding: 7px;
+     
+      
+   }
+   .formChild label{
+      font-size: 20px;
+   
+    }
+ }
